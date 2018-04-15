@@ -30,6 +30,7 @@ html, body {
   position: relative;
   list-style: none;
   padding: 8px 13px;
+  outline: none;
   cursor: pointer
 }
 
@@ -63,7 +64,8 @@ html, body {
   display:block;
   font-weight:bold;
   font-size:12px;
-  color:#1d6ab7
+  color:#1d6ab7;
+  cursor: text
 }
 
 .nameInput {
