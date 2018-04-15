@@ -74,7 +74,7 @@ class App extends Component {
                         autoFocus
                       />
                     :
-                      <b className="nameText" onClick={(e) => this.handleClick(e, index)} >{character.name}</b>
+                      <b className="nameText" onClick={(e) => this.handleClick(e, index)}>{character.name}</b>
                     }
                     <span className="points">{character.points}</span>
                   </div>
